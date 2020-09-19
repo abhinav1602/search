@@ -1,0 +1,46 @@
+img {
+  height: 80px;
+  width: 140px;
+}
+.hcbc {
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  width: 16%;
+  font-size: 16px;
+  height: 42px;
+  font-weight: 500;
+  color: #333;
+  vertical-align: middle;
+}
+.input {
+  padding-top: 4px;
+  float: left;
+}
+
+div.hfbc {
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 50%;
+  padding-top: 30px;
+}
+.para {
+  padding-top: 30px;
+  margin-left: 50px;
+  color: #333333;
+  font-size: 20px;
+}
+.para1 {
+  padding-top: 30px;
+  margin-left: 50px;
+}
+.heading {
+  padding-top: 10px;
+  margin-left: 50px;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #da352a;
+}
