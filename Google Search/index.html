@@ -4,6 +4,8 @@
 <head>
   <title>Google Search</title>
   <link rel="stylesheet" type="text/css" href="C:\Users\adity\OneDrive\Desktop\search\index.css" />
+  <script src="C:\Users\adity\OneDrive\Desktop\search\images.js"></script>
+
   <center>
     <header>
       <ul>
@@ -27,9 +29,10 @@
       <form action="https://google.com/search">
 
         <input class="searchbar" type="text" required="required" placeholder="      Search Google or type a URL"
-          name="q">
+          name="q" id="luck">
         <div class="dist">
           <button class="button" type="submit" name="q">Google Search</button>
+          <button type="submit" class = "button" name="q"  onclick="return lucky()">I'm Feeling Lucky</button>
         </div>
       </form>
 
