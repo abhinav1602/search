@@ -25,18 +25,11 @@ function advanceSearch() {
   return false;
 }
 
-//https://www.google.com/search?sxsrf=ALeKk005UIAar_YJ3paBEpPjHCUWjr7X7A%3A1600709382100&source=hp&ei=BuNoX8P7A9ffz7sPzO6d8Ao&iflsig=AINFCbYAAAAAX2jxFo-7U-Bj6vD9Zrokd3j78R4ePC24&q=apple&btnI=I%27m+Feeling+Lucky
-//https://www.google.com/search?source=hp&ei=S5hoX8DzMMOW4-EPpquDkAo&iflsig=AINFCbYAAAAAX2imW5eoHD2F4euZoYhLSgkbIVv55rH3&q=hello&btnI=I%27m+Feeling+Lucky
-//https://www.google.com/search?source=hp&q=hello&btnI=I'm+Feeling+Lucky
 function lucky() {
   var val = document.getElementById("luck").value;
   location =
-    "https://www.google.com/search?sxsrf=ALeKk02AwTBnjrXBifoZn5JyJTQ5nFNfJA%3A1600709632987&source=hp&ei=AORoX-G1OsSDmgeC4pWAAQ&iflsig=AINFCbYAAAAAX2jyEAXJRL2kXiiUUZQ26-61NXGJZLme&q=" +
-    val +
-    "&btnI=I%27m+Feeling+Lucky";
+    "http://www.google.com/search?q=" + val + "&btnI=I%27m+Feeling+Lucky";
 
-  // store = encodeURI(store);
-  // location = store;
   console.log(location);
   return false;
 }
